@@ -1,4 +1,10 @@
-HASHTAG = '#forward'
+require "rubygems"
+require "bundler/setup"
+
+require "twitter"
+require "sinatra"
+
+HASHTAG = '#IgniteCleanweb'
 
 set :haml, {:format => :html5 }
 
