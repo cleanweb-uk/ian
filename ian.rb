@@ -13,7 +13,7 @@ get '/' do
 end
 
 get '/update' do
-  @tweet = Twitter::Search.new.q(HASHTAG).fetch.first
+  @tweet = Twitter::Search.new.q(HASHTAG).fetch.first(5).shuffle.first
   haml :tweet
 end
 
