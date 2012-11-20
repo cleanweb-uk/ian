@@ -4,7 +4,7 @@ require "bundler/setup"
 require "twitter"
 require "sinatra"
 
-HASHTAG = '#IgniteCleanweb'
+HASHTAG = '#CleanClouds'
 
 set :haml, {:format => :html5 }
 
